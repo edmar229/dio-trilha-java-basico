@@ -1,18 +1,23 @@
-## Getting Started
+## Desafio da trilha de Java básico do bootcamp da DIO
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Objetivo: Exercitar todo o conteúdo apresentado no módulo de Sintaxe
 
-## Folder Structure
+## Mais informações:
+[Instruções do desafio no repositório da DIO.](https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/sintaxe)
 
-The workspace contains two folders by default, where:
+## Como rodar o código?
+1 - Se você está usando o VSCode e instalou as extensões de acordo com as instruções do curso do bootcamp, basta clicar no íconde de "play" no canto superior direito da IDE.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+2 - Rodar pelo terminal:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Linux:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+````bash
+java src/ContaTerminal.java
+````
 
-## Dependency Management
+Windows:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+````cmd
+java .\src\ContaTerminal.java
+````
